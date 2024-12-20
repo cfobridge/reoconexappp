@@ -1,0 +1,36 @@
+.custom-node {
+  background-color: #ffffff;
+  border: 1px solid #dadada;
+  padding: 5px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 150px;
+}
+
+.custom-node-content {
+  display: flex;
+  text-align: left;
+  align-items: center;
+}
+
+.node-icon {
+  font-size: 1.9em !important;  
+  border-radius: 4px;
+  padding: 6px;
+  border-radius: 4px;
+  background-color: #722ed1;
+  color: #fff;
+}
+
+.node-label {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.35;
+  text-align: left;
+  padding: 2px 6px;
+  font-family: 'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+  color: #333;
+}
+

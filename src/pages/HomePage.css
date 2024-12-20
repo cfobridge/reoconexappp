@@ -1,0 +1,22 @@
+/* HomePage.css */
+.homepage-container {
+    display: flex;
+  }
+  
+  .home-content {
+    margin-left: 240px; /* Width of the sidebar */
+    padding: 20px;
+    min-height: 100vh;
+  }
+  
+  .header h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .header p {
+    font-size: 16px;
+    color: #555;
+  }
+  

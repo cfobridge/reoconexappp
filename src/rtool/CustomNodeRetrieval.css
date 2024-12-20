@@ -1,0 +1,39 @@
+.custom-node-retrieval {
+    background: #f5f5f5;
+    border: 1px solid #007bff;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .node-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .node-icon {
+    font-size: 20px;
+    margin-right: 8px;
+  }
+  
+  .node-details {
+    margin-top: 10px;
+    text-align: left;
+  }
+  
+  .matching-rule {
+    margin: 5px 0;
+  }
+  
+  .delete-node-btn {
+    margin-top: 10px;
+    color: #ff4d4d;
+    cursor: pointer;
+  }
+  
+  .delete-icon {
+    margin-left: 5px;
+  }
+  

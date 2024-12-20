@@ -1,0 +1,48 @@
+.sidebars {
+  width: 250px;
+  background-color: #f4f4f4;
+  padding: 10px;
+}
+
+.menu-item {
+  margin-bottom: 15px;
+}
+
+.node-title {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 16px;
+  color: #333;
+}
+
+.node-title svg {
+  margin-right: 8px;
+  font-size: 20px;
+  color: #007bff;
+}
+
+.draggable-node {
+  background-color: #e9ecef;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 4px;
+  cursor: grab;
+  text-align: center;
+}
+
+.draggable-node:hover {
+  background-color: #d1e7dd;
+}
+
+.submenu {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.submenu .draggable-node {
+  background-color: #f8f9fa;
+}
+.react-flow__controls {
+  display: none;
+}

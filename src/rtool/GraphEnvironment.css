@@ -1,0 +1,32 @@
+.app-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+.graph-environment {
+    flex: 1;
+    height: 100vh;
+    background-color: #f0f2f5;
+    border-radius: 8px;
+    position: relative;
+  }
+  
+  .node {
+    position: absolute;
+    padding: 8px 12px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    color: #333;
+    cursor: move;
+  }
+  
+  .node.dat_ingestion {
+    background-color: #a2d5f2;
+  }
+  
+  .node.reconciliation {
+    background-color: #f7c1c1;
+  }
+  

@@ -1,0 +1,138 @@
+/* Slidebar.css */
+
+/* Common styles */
+.sidebar {
+  background-color: #ffffff;
+  color: #3d4148;
+  width: 240px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #e0e0e0;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.slidebar-header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-icon {
+  font-size: 1.8em;
+  color: #722ed1;
+  margin-right: 10px;
+}
+
+.sidebar-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+}
+
+.menu-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-grow: 1;
+  padding-top: 20px;
+}
+
+.nav-link {
+  margin-bottom: 10px;
+}
+
+.sidebar-item {
+  padding: 10px 20px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #3d4148;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar-item:hover {
+  background-color: #f4f4f4;
+}
+
+.clickable {
+  cursor: pointer;
+  justify-content: space-between; /* To position the chevron icon */
+}
+
+.nav-link.active .sidebar-item {
+  background-color: #e6f7ff;
+  color: #1890ff;
+}
+
+.sidebar-item span {
+  font-size: 16px;
+  font-weight: 500;
+  user-select: none;
+  margin-left: 12px;
+  color: inherit;
+}
+
+.icon {
+  font-size: 1.5em;
+  color: #722ed1;
+}
+
+.submenu-icon {
+  font-size: 1em;
+  margin-left: auto;
+  color: #722ed1;
+}
+
+.submenu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-left: 20px; /* Indent submenu */
+}
+
+.submenu-link {
+  margin-bottom: 5px;
+}
+
+.submenu-link .sidebar-item {
+  padding: 8px 20px;
+  background-color: #f9f9f9;
+}
+
+.submenu-link .sidebar-item:hover {
+  background-color: #e6f7ff;
+}
+
+.submenu-link.active .sidebar-item {
+  background-color: #d6e4ff;
+  color: #1890ff;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 60px;
+  }
+
+  .sidebar-title,
+  .sidebar-item span {
+    display: none;
+  }
+
+  .logo {
+    justify-content: center;
+  }
+
+  .submenu {
+    display: none;
+  }
+}
